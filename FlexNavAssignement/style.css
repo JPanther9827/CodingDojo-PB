@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    justify-items: center;
+}
+.center-box{
+        margin-left: 250px;
+        padding: 10px;
+        justify-content: flex-start;
+        background-color: black;
+        min-height: 200px;
+        width: 400px;
+        display: inline-block;
+        border: solid black 10px;
+}
+
+.center-item{
+    background-color: darkgoldenrod;
+    height: 150px;
+    width: 250px;
+    display:inline-block;
+    border: solid black 10px;
+    margin-right: 350px;
+    padding: 10px;
+    justify-items: flex-start;
+}
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#MenTats{
+    background-color: firebrick;
+    width: 1000px;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+#Nav-bar{
+    align-items: center;
+    display: inline-block;
+    gap: 20px;
+    justify-content: flex;
+    padding: 10px;
+}
+
+ul{
+    justify-content: flex-start;
+    margin: 20px;
+    list-style: none;
+    display: end;
+}
+
+#Traditional{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration:none;
+    font-size: medium;
+    align-items: center;
+}
+
+#Oldschool{
+    background-color:hotpink;
+    height:400px;
+    width: 24%;
+    border: solid white;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}

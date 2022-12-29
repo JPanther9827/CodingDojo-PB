@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: forestgreen;
+}
+
+.Nav-bar{
+    background-color: crimson;
+    height: 100px;
+}
+
+.Left-nav{
+    background-color: blue;
+    height: 600px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.Middle-nav{
+    background-color: dimgrey;
+    height: 700px;
+    width: 1000px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.Yellow-box{
+    background-color: yellow;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Footer{
+    background-color: blueviolet;
+    width: 100px;
+    height: 20px;
+}

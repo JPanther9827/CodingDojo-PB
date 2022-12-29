@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+    padding: 20px;
+}
+
+.header{
+    height: 110px;
+    background-color: rgb(65, 206, 76);
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.left-nav{
+    width: 175px;
+    background-color: rgb(16, 16, 83);
+    min-height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.buba{
+    background-color: rgb(228, 78, 78);
+    height: 300px;
+    width: 790px;
+    display: inline-block;
+    padding: 14px;
+}
+
+.bannanas{
+    background-color: rgb(247, 194, 51);
+    border: 1px solid rgb(231, 222, 222);
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.foot{
+    height: 90px;
+    background-color: rgb(6, 230, 238);
+}
+

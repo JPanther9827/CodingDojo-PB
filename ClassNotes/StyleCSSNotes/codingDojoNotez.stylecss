@@ -1,0 +1,37 @@
+selector_goes_here {
+        rule: value;
+    }
+
+    <p>I'm paragraph one</p>
+<p>I'm paragraph two</p>
+<p>I'm paragraph three</p>
+
+p {    
+        color: blue;    
+        font-weight: bold;
+    }
+    
+    <p id="one">I'm paragraph one</p>
+<p class="not_first">I'm paragraph two</p>
+<p class="not_first">I'm paragraph three</p>
+
+p {	
+	/* SELECT BY ELEMENT: any rules here will apply to all 3 p tags */
+}
+.not_first {	
+	/* SELECT BY CLASS: any rules here will apply to the second and third p tags */
+}
+#one {	
+	/* SELECT BY ID: any rules here will apply only to the first p tag */
+}
+
+css_selector_goes_here {	
+        background-color: blue; 
+        color: green; 
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-family: verdana;
+        font-size: 20px;
+    }
+    
